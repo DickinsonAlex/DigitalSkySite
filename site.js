@@ -1,11 +1,9 @@
-const switcher = document.querySelector('.dark_btn');
-switcher.addEventListener('click', function() {
-    document.body.classList.toggle('dark-theme')
-    var className = document.body.className;
-    if(className == "light-theme") {
-        this.textContent = "Dark";
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
     }
-    else {
-        this.textContent = "Light";
-    }
-});
+  }
