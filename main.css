@@ -44,7 +44,7 @@ li {
 /* Create a right-aligned (split) link inside the navigation bar */
 .topnav a.split {
   float: right;
-  background-color: #04AA6D;
+  background-color: #d42828;
   color: white;
 }
 
@@ -57,4 +57,20 @@ li {
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  background: #1f1f1f;
+  color: white;
+}
+
+/* Add a hover effect*/
+.fa:hover {
+  opacity: 0.5;
 }
